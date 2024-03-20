@@ -1,0 +1,207 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;  
+    background-color: #e8e4e4; 
+    font-family: "Zilla Slab";
+    font-style: normal;
+}
+
+.cabCima{
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 40px;
+    position: absolute;      
+    z-index: 2;
+    top: 0;
+    text-align: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul form {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+ 
+nav ul li {
+    display: inline;
+}
+ 
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    color: #A7A8AA;
+}
+ 
+nav ul li a:hover {
+    background-color: #ddd;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+    background-color: #ffff;
+}
+ 
+.logo img {
+    width: 100px; /* Defina o tamanho do seu logotipo conforme necessário */
+    height: auto;
+}
+ 
+.titulo {
+    text-align: center;
+    color: #0E60A2;
+    font-weight: lighter;
+    margin-top: 25px;
+}
+ 
+.redes-sociais {
+    display: flex;
+}
+ 
+.icone-social {
+    margin-left: 10px; /* Espaçamento entre os ícones */
+    color: #A7A8AA; /* Cor dos ícones */
+}
+
+
+
+.cabecalho img{
+    width: 90px;
+}
+
+.linhaCabecalho{
+    background-color: #dc7d1f;
+    height: 3px;
+    width: 100%;
+    border: none;
+    margin: 0;
+    display: flex;
+    position: absolute;      
+    z-index: 2;
+}
+
+.cabBaixo{
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 70px;
+    position: absolute;      
+    z-index: 2;
+    top: 168px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+nav::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Ajuste a altura do desfoque conforme necessário */
+    width: 100%;
+    height: 1px; /* Ajuste a altura do desfoque conforme necessário */
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)); /* Gradiente de transparência para criar o efeito de desfoque */
+}
+
+.cabBaixo nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cabBaixo nav ul form {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+ 
+.cabBaixo nav ul li {
+    display: inline;
+}
+ 
+.cabBaixo nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    color: #0E60A2;
+    margin-top: 15px;
+    font-size: 18px;
+}
+ 
+nav ul li a:hover {
+    background-color: #ddd;
+}
+
+.cadastro {
+    width: 100%;
+    max-width: 500px; /* Defina uma largura máxima para a sua div se necessário */
+    padding: 30px;
+    position: absolute;  
+    z-index: 2; 
+    text-align: center;
+    background-color: #ffff;
+    border-radius: 5px;
+    background-color: #f0f0f0; /* Cor de fundo da div */
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+div::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Ajuste a altura do desfoque conforme necessário */
+    width: 100%;
+    height: 1px; /* Ajuste a altura do desfoque conforme necessário */
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)); /* Gradiente de transparência para criar o efeito de desfoque */
+}
+
+
+.entrar .caixa{
+    display: flex;
+
+}
+
+.conta{
+    background-color: aliceblue;
+}
+
+.imput{
+        align-items: center;
+        width: 200px;
+        height: 40px;
+        background-color: #E6E3E1;
+        border-radius: 5px;
+        border: 1px solid transparent;
+}
+
+button, .button{
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+
+
+
+
+.login{
+    color: #dc7d1f;
+}
+
+
+.baixo{
+    background-color: #0E60A2;
+}
