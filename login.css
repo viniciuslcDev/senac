@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e8e4e4; 
+    font-family: "Zilla Slab";
+    font-style: normal;
+    height: 100dvh;
+}
+
+.cabCima{
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+  display: flex;
+}
+
+nav ul form {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+ 
+nav ul li {
+    display: inline;
+}
+ 
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    color: #A7A8AA;
+}
+ 
+nav ul li a:hover {
+    background-color: #ddd;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffff;
+    flex-direction: column;
+}
+ 
+.logo img {
+    width: 100px; /* Defina o tamanho do seu logotipo conforme necessário */
+    height: auto;
+}
+ 
+.titulo {
+    text-align: center;
+    color: #0E60A2;
+    font-weight: lighter;
+    margin-top: 25px;
+}
+ 
+.redes-sociais {
+    display: flex;
+}
+ 
+.icone-social {
+    margin-left: 10px; /* Espaçamento entre os ícones */
+    color: #A7A8AA; /* Cor dos ícones */
+}
+
+
+
+.cabecalho img{
+    width: 90px;
+}
+
+
+.cabBaixo{
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.cabBaixo nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cabBaixo nav ul form {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+ 
+.cabBaixo nav ul li {
+    display: inline;
+}
+ 
+.cabBaixo nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    color: #0E60A2;
+    margin-top: 15px;
+    font-size: 18px;
+}
+ 
+nav ul li a:hover {
+    background-color: #ddd;
+}
+main {
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+.cadastro {
+    width: 100%;
+    max-width: 500px; /* Defina uma largura máxima para a sua div se necessário */
+    padding: 30px;
+    background-color: #ffff;
+    border-radius: 5px;
+    background-color: #f0f0f0; /* Cor de fundo da div */
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.entrar .caixa{
+    display: flex;
+
+}
+
+.conta{
+    background-color: aliceblue;
+}
+
+.imput{
+        width: 100%;
+        height: 40px;
+        background-color: #E6E3E1;
+        border-radius: 0 5px 5px 0;
+        border: 1px solid #474749;
+        outline: none;
+        padding: 0 1rem;
+
+}
+
+button, .button{
+    border-radius: 5px;
+}
+
+
+
+
+
+.login{
+    color: #dc7d1f;
+}
+
+
+.baixo{
+    background-color: #0E60A2;
+}
+
+#main-logo {
+display: flex; 
+justify-content: space-between; /* distribui os elementos dentro do espaço disponivel por igual  */
+align-items: center;
+width: 100%;
+padding: 1rem 2rem;
+
+}
+#container-input {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#container-input >div {
+    display: flex;
+    align-items: center;
+}
+
+#container-input >div i{
+ background-color: #A7A8AA;
+ border: 1px solid #474749;
+ font-size: 1.3rem;
+ padding: .53rem;
+ border-radius: 5px 0 0 5px;
+ transform: translateX(1px);
+}
+.cadastro >div {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    gap: .5rem;
+align-items: center;
+margin-bottom: 1.5rem;
+color:gray; 
+}

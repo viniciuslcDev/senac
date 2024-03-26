@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Senac</title>
+    <link rel="shortcut icon" href="download.png"></link>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+        
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js" defer></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js" defer></script>
+    <script src="config.js" defer></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <div class="cabCima">
+            <nav class="nomes">
+                <ul>
+                    <li><a href="">Hotéis</a></li>
+                    <li><a href="">Editora</a></li>
+                    <li><a href="">EAD</a></li>
+                    <li><a href="">Atendimento corporativo</a></li>
+    
+                <form action="/search" method="get">
+                    <input type="text" placeholder="Pesquisar..." name="search">
+                    <i class='bx bx-search-alt-2' ></i>
+                </form>
+                <li><a href="">Acesse o login ou cadastre-se</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section id="main-logo"> <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Senac_logo.svg/2560px-Senac_logo.svg.png" alt="">
+            </div>
+            <div class="titulo">
+            <h1>Senac São Paulo</h1>
+            </div>
+            <div class="redes-sociais">
+            <a href="#" class="icone-social"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="icone-social"><i class="bx bxl-twitter"></i></a>
+            <a href="" class="icone-social"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="" class="icone-social"><i class='bx bxl-youtube' ></i></a>
+            <a href="#" class="icone-social"><i class="bx bxl-instagram"></i></a>
+            </div>
+    </section>
+        
+        <div class="cabBaixo">
+            <nav class="nomes">
+                <ul>
+                    <li><a href="">Institucional</a></li>
+                    <li><a href="">Unidades</a></li>
+                    <li><a href="">Cursos</a></li>
+                    <li><a href="">Eventos</a></li>
+                    <li><a href="">Centro Universitários</a></li>
+                    <li><a href="">Jovem Aprendiz</a></li>
+                    <li><a href="">Bolsas de Estudos</a></li>
+                    <li><a href="">Biblioteca</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+        
+        </header>
+
+        <main>
+            <div id="signup" class="cadastro">
+               <div>
+                <i class='bx bx-user-circle' ></i>
+                <h4>Faça <span class="login">Login</span> na sua conta</h4>
+               </div>
+              <section id="container-input">  
+                <div> 
+                    <i class='bx bx-envelope' ></i>
+                    <input type="email" id="emailCad" placeholder="Informe email" class="imput">
+                </div>
+                <div>
+                    <i class='bx bx-key' ></i>
+                <input type="password" id="senhaCad"  placeholder="Informe senha" class="imput">
+            
+                </div>
+            <div>
+                <i class='bx bx-key' ></i>
+                <input type="password" id="senhaCad2" placeholder="Confirme senha" class="imput">
+            
+            </div>
+                <input type="button" id="btnCad" value="Criar usuário" class="button"></section>
+            </div>
+    </main>
+                    
+                      
+    <footer>
+        <div class="footer-container">
+            
+            <div class="footer-column">
+                <h3>Institucional</h3>
+                <ul>
+                    <li><i class='bx bx-plus-medical'></i><a href="#">Conheça o Senac</a></li>
+                    <li><i class='bx bx-plus-medical'></i><a href="#">Serviços</a></li>
+                    <li><i class='bx bx-plus-medical'></i><a href="#">Sites</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Unidades</h3>
+                <ul>
+                    <li><a href="">Todas as unidades</a></li>
+                    <li><a href="">Editora Senac</a></li>
+                    <li><a href="">Hotéis</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Eventos</h3>
+                <ul>
+                    <li><a href="">Agenda de Eventos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Modalidades</h3>
+                    <ul>
+                        <li><a href="">Livres</a></li>
+                        <li><a href="">Técnicos</a></li>
+                        <li><a href="">Idiomas</a></li>
+                        <li><a href="">Aprendizagem</a></li>
+                        <li><a href="">Graduação</a></li>
+                        <li><a href="">Pós-graduação</a></li>
+                        <li><a href="">Extensão Universitária</a></li>
+                        <li><a href="">Educação a Distânica</a></li>
+                        <li><a href="">Cursos in Company</a></li>
+                    </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Centro Universitário</h3>
+                <ul>
+                    <li><i class='bx bx-plus-medical'></i><a href="">Conheça os Campus</a></li>
+                    <li><a href="">Vestibular</a></li>
+                    <li><a href="">Transferência</a></li>
+                    <li><a href="">Bolsas de Estudo</a></li>
+                    <li><a href="">Comissão Própria de Avaliação (CPA)</a></li>
+                    <li><a href="">ENAD</a></li>
+                    <li><a href="">Parcerias</a></li>
+                    <li><a href="">Divulgação Científica</a></li>
+                    <li><a href="">Consulta Pública de Diplomas</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Atendimento Corporativo</h3>
+                <ul>
+                    <li><a href="">Líder Mediador</a></li>
+                    <li><a href="">Desenvolvimento de Líderes</a></li>
+                    <li><a href="">Desenvolvimento de Turismo</a></li>
+                    <li><a href="">Desenvolvimento em Vendas</a></li>
+                    <li><a href="">Gestão do Relacionamento com Clientes</a></li>
+                    <li><a href="">Setor Público</a></li>
+                </ul>
+            </div>
+            <br>
+            <div class="footer-column">
+                <h3>Desenvolvimento Social</h3>
+                <ul>
+                    <li><a href="">Bolsas de Estudo</a></li>
+                    <li><a href="">Programa Aprendizagem</a></li>
+                    <li><a href="">Iniciativas Sociais</a></li>
+                    <li><a href="">Portal Setor 3</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Biblioteca</h3>
+                <ul>
+                    <li><a href="">Nossa Biblioteca</a></li>
+                    <li><a href="">Regulamento</a></li>
+                    <li><a href="">Busca Integrada</a></li>
+                    <li><a href="">Acervo Senac</a></li>
+                    <li><a href="">Biblioteca Virtual</a></li>
+                    <li><a href="">Espaço Acessibilidade</a></li>
+                    <li><a href="">Modateca</a></li>
+                    <li><a href="">Suporte</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-dados">
+            <div class="mensagem">
+                <p>Senac - Serviço Nacional de Aprendizagem Comercial - CNPJ: [consulte as unidades] ou pelo Fale Conosco <br>
+                    Informações: 4090-1030 para capitais e regiões metropolitanas e 0800-883-2000 para demais regiões</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <img src="https://www.sp.senac.br/imagens/logo_senac_branco.png" alt="">
+            <p>&copy; Copyright © 2007-2020. Todos os Direitos Reservados.</p>
+            <div>
+                <i class='bx bxl-facebook-square'></i>
+            <i class='bx bxl-twitter'></i>
+            <i class='bx bxl-linkedin-square'></i>
+            <i class='bx bxl-youtube'></i>
+            <i class='bx bxl-instagram-alt'></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
